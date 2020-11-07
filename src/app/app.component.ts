@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'misCuentasApp';
-  // test = [{"total": 900, "name":"test", "description":"descript test..."}];
+  test = [{"total": 900, "name":"test", "description":"descript test..."}];
 
 }
