@@ -26,7 +26,15 @@
             <lib-card [account]="test"></lib-card>
             <lib-card [account]="test"></lib-card> -->
 
-            <div class="row">
+            <div *ngFor="let account of account_items">
+
+                <lib-card [account]="account">
+                </lib-card>
+
+            </div>
+
+
+            <!-- <div class="row">
                 <div class="col-lg-3">
                     <div class="card">
                         <div class="card-body">
@@ -79,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- ============================================================== -->
             <!-- End PAge Content -->
